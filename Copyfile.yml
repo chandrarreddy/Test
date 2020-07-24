@@ -1,6 +1,6 @@
 ---
 - name: copy file
-  hosts: 172.31.54.150
+  hosts: all
   tasks:
   - name: create folder
     file:
