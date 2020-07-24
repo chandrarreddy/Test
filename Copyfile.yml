@@ -4,7 +4,7 @@
   tasks:
   - name: copy file
     copy:
-     src: /tmp/demofile.txt
+     src: /home/awx/test.txt
      dest: /tmp/chandra/
    
     
