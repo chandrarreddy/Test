@@ -1,0 +1,8 @@
+---
+- name: create file
+  hosts: all
+  tasks:
+  - name: copy file from GitHub
+    get_url:
+     url: https://github.com/chandrarreddy/Test/ping.yml
+     dest: /home/aws/
