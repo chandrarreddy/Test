@@ -1,14 +1,9 @@
 ---
 - name: create file
-  hosts: dev
+  hosts: all
   tasks:
   - name: copy file from GitHub
     get_url:
      url: https://github.com/chandrarreddy/Test/blob/master/ping.yml
      dest: /home/aws/
-  hosts: dev1
-  tasks:
-  - name: copy file from GitHub
-    get_url:
-     url: https://github.com/chandrarreddy/Test/blob/master/ping.yml
-     dest: /home/aws/
+ 
